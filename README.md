@@ -1,2 +1,2 @@
-# core
-ThomasJude core library
+# services
+ThomasJude services library

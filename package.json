@@ -1,12 +1,13 @@
 {
-  "name": "@thomasjude/core",
+  "name": "@thomasjude/services",
   "version": "0.0.1",
-  "description": "ThomasJude core library",
+  "description": "ThomasJude services library",
   "main": "./build/main.js",
   "types": "./build/main.d.ts",
   "scripts": {
     "prestart": "tsc",
     "start": "node .",
+    "build": "tsc",
     "clean": "rm -Rf ./build"
   },
   "author": "Benjamin Darbonne <benjamind@modad.com>",

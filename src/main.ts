@@ -1,4 +1,3 @@
 
-export const greet = (name:string) => {
-  console.log('hello ' + name)
-}
+
+export {default as logger} from './logger'
