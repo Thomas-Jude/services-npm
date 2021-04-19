@@ -1,0 +1,17 @@
+{
+  "name": "@thomasjude/core",
+  "version": "0.0.1",
+  "description": "ThomasJude core library",
+  "main": "./build/main.js",
+  "types": "./build/main.d.ts",
+  "scripts": {
+    "prestart": "tsc",
+    "start": "node .",
+    "clean": "rm -Rf ./build"
+  },
+  "author": "Benjamin Darbonne <benjamind@modad.com>",
+  "license": "GNU",
+  "publishConfig": {
+    "access": "public"
+  }
+}
