@@ -1,6 +1,6 @@
 {
   "name": "@thomasjude/services",
-  "version": "0.0.1",
+  "version": "0.0.20",
   "description": "ThomasJude services library",
   "main": "./build/main.js",
   "types": "./build/main.d.ts",
@@ -17,5 +17,8 @@
   },
   "files": [
     "/build"
-  ]
+  ],
+  "dependencies": {
+    "ramda": "^0.27.1"
+  }
 }
